@@ -7,6 +7,8 @@ This plugin compatible with TinyMce 4.
 
 ![MathSymbols TinyMCE Plugin - Visual demo](demo.gif)
 
+Is better to check this project before use: http://www.imathas.com/editordemo/demo.html.
+
 ## How to test it:
 
 ```
