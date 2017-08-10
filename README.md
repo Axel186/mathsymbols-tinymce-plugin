@@ -8,6 +8,36 @@ This plugin compatible with TinyMce 4.
 
 *Is better to check this project before use: http://www.imathas.com/editordemo/demo.html.*
 
+## Install
+
+### NPM:
+```
+npm install mathsymbols-tinymce-plugin --save
+```
+
+### Bower:
+```
+bower install mathsymbols-tinymce-plugin --save
+```
+
+### Download
+
+* [Latest build](https://github.com/Axel186/mathsymbols-tinymce-plugin-bower/archive/master.zip)
+
+## Usage
+
+Configure your TinyMce init settings by adding `external_plugins` and usage of `mathSymbols`: 
+
+```
+  tinymce.init({
+    selector: 'textarea',
+    external_plugins: {'mathSymbols': '/your-path-to-plugin/mathsymbols-tinymce-plugin/plugin.min.js'}, // Add plugin to Tinymce
+    toolbar: 'mathSymbols'
+  });
+```
+
+With this plugin you able to add Math Symbols into your content, but you also have to add [MathJax](https://www.mathjax.org) to the website itself.
+
 ## How to test it:
 
 ```
@@ -26,8 +56,6 @@ npm run build
 ```
 
 Now you have your own `dist` folder - minimized version of plugin already there.
-
-With this plugin you able to add Math Symbols into your content. It supports Math font, but you also have to add [MathJax](https://www.mathjax.org) on the website itself.
 
 ### Configure your TinyMce:
 
