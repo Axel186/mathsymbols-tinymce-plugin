@@ -1,4 +1,4 @@
-#
+# MathSymbols-TinyMCE-Plugin
 
 This plugin using [MathJax](https://www.mathjax.org) libary for rendering math font.
 
