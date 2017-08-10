@@ -1,6 +1,6 @@
 # MathSymbols-TinyMCE-Plugin
 
-This plugin using [MathJax](https://www.mathjax.org) libary for rendering math font.
+This plugin using [MathJax](https://www.mathjax.org) library for rendering math font.
 
 This plugin compatible with TinyMce 4.
 
@@ -46,7 +46,7 @@ By running the `npm start` command you start the development server and open a b
 
 ## The production build
 
-By running the `npm run build` command Webpack will create a `dist` directory with a child directory with the name of your plugin (mathsymbols-tinymce-plugin) containing three files:
+By running the `npm run build` command Webpack will create a `dist` directory with a child directory with the name of your plugin (mathsymbols-tinymce-plugin) is containing three files:
 
 * `plugin.js` - the bundled plugin
 * `plugin.min.js` - the bundles, uglified and minified plugin
