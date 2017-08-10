@@ -1,13 +1,12 @@
 #
 
-With this plugin you able to add Math Symbols into your content. It supports Math font, but you also have to add [MathJax](https://www.mathjax.org) on the website itself.
 This plugin using [MathJax](https://www.mathjax.org) libary for rendering math font.
 
 This plugin compatible with TinyMce 4.
 
 ![MathSymbols TinyMCE Plugin - Visual demo](demo.gif)
 
-Is better to check this project before use: http://www.imathas.com/editordemo/demo.html.
+*Is better to check this project before use: http://www.imathas.com/editordemo/demo.html.*
 
 ## How to test it:
 
@@ -27,6 +26,8 @@ npm run build
 ```
 
 Now you have your own `dist` folder - minimized version of plugin already there.
+
+With this plugin you able to add Math Symbols into your content. It supports Math font, but you also have to add [MathJax](https://www.mathjax.org) on the website itself.
 
 ### Configure your TinyMce:
 
